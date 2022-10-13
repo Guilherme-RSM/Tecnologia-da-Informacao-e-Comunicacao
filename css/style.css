@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+    width:100%;
+    background: rgb(92, 84, 84);
+    background: radial-gradient(circle, rgba(92, 84, 84, 1) 0%, rgba(54, 50, 50, 1) 51%, rgba(14, 13, 13, 1) 82%);
+    margin-bottom:50px;
+    
+}
+
+nav ul {
+    width:100%;
+    padding:30px;
+    display:flex;
+    flex-direction: row;
+    list-style:none;
+
+}
+nav li a {
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+}
+
+#introducao {
+    width:100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+h1 {
+    text-align:center;
+    
+}
+
+#introducao p {
+    width:70%;
+    margin-top:30px;
+
+}
+
+#hardware {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:30px;
+}
+.card-hardwares {
+    width:25%;
+    padding:10px;
+    border:1px solid rgba(0, 0, 0, 0.377);
+    border-radius:10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+}
+#hardware img {
+    width:70%;
+    margin-top:20px;
+}
+
+.card-hardwares p {
+    width:70%;
+}
+
