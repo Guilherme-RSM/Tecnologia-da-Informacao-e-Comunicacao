@@ -21,3 +21,40 @@ h3 {
     font-size:1.7em;
     font-weight: 500;
 }
+
+#pc-componentes {
+    padding:30px;
+    margin-top:30px;
+}
+
+.hardware-description {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    padding:20px;
+    border-radius:12px;
+    background:#f3f3f3;
+}
+
+
+details {
+cursor:pointer;
+font-weight:600;
+margin-top:30px;
+}
+
+details p {
+    cursor:auto;
+    width:90%;
+    margin-top:10px;
+    font-weight:400;
+}
+
+details img {
+    
+    max-width: 40%;
+    margin:auto;
+}
+
