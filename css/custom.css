@@ -22,6 +22,18 @@ h3 {
     font-weight: 500;
 }
 
+
+
+#hardwares {
+    border-bottom:1px dashed rgba(0, 0, 0, 0.288);
+    margin-bottom:100px;
+    height: 100%;
+}
+
+details:last-child {
+    margin-bottom:100px;
+}
+
 #pc-componentes {
     padding:30px;
     margin-top:30px;
@@ -39,10 +51,26 @@ h3 {
 }
 
 
+summary {
+    list-style-type: '+  ';
+    font-size:1.5em;
+}
+details[open] summary {
+list-style-type:'- ';
+
+}
+
 details {
 cursor:pointer;
 font-weight:600;
 margin-top:30px;
+}
+
+summary:hover {
+    color:#81c784;
+    transition:0.4s;
+    transform:translateX(20px);
+
 }
 
 details p {
@@ -58,3 +86,14 @@ details img {
     margin:auto;
 }
 
+#voltar-topo {
+margin:40px;    
+}
+
+footer {
+    text-align:center;
+}
+
+footer p {
+    padding-bottom:15px;
+}
