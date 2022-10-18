@@ -1,5 +1,8 @@
+/*IMPORTANDO FONTE DO GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
 
+
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +11,6 @@
     scroll-behavior: smooth;
 
 }
-
-
 
 h1{
 
@@ -25,16 +26,13 @@ h3 {
 }
 
 
-
+/*INFORMAÇÕES SOBRE HARDWARE*/
 #hardwares {
     border-bottom:1px dashed rgba(0, 0, 0, 0.288);
     margin-bottom:100px;
     height: 100%;
 }
 
-details:last-child {
-    margin-bottom:100px;
-}
 
 #pc-componentes {
     padding:30px;
@@ -53,11 +51,20 @@ details:last-child {
 }
 
 
+/*EXIBIR MAIS INFORMAÇÕES*/
 summary {
     list-style-type: '+  ';
     font-size:1.5em;
     user-select: none;
 }
+
+summary:hover {
+    color:#81c784;
+    transition:0.4s ease-in-out;
+    transform:translateX(20px);
+
+}
+
 details[open] summary {
 list-style-type:'- ';
 
@@ -69,12 +76,12 @@ font-weight:600;
 margin-top:30px;
 }
 
-summary:hover {
-    color:#81c784;
-    transition:0.4s ease-in-out;
-    transform:translateX(20px);
 
+details:last-child {
+    margin-bottom:100px;
 }
+
+
 
 details p {
     cursor:auto;
@@ -89,10 +96,16 @@ details img {
     margin:auto;
 }
 
+#software img {
+    max-width:500px;
+}
+
 #voltar-topo {
 margin:40px;    
 }
 
+
+/*RODAPÉ*/
 footer {
     text-align:center;    
     padding:20px;
