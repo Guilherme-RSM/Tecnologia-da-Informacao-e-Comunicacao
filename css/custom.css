@@ -9,7 +9,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+}
 
+.texto-destacado {
+    font-weight:600;
 }
 
 h1{
@@ -97,7 +100,21 @@ details img {
 }
 
 #software img {
-    max-width:500px;
+    max-width:300px;
+}
+
+#licenciamento-de-softwares p {
+    margin-bottom:50px;
+    margin-top:100px;
+}
+
+#alerta{
+    width:100%;
+    display:flex;
+}
+
+#alerta i {
+    margin-right:10px;
 }
 
 #voltar-topo {
